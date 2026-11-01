@@ -1,0 +1,9 @@
+interface:
+  display_name: "Personal Budget Plaid Excel"
+  short_description: "Choose Plaid or Chrome portal budget imports"
+  default_prompt: "Use $personal-budget-plaid-excel to update my monthly budget; ask me to choose Plaid or Direct portal before importing, then build the standalone Excel review workbook without sending email."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gmail"
+      description: "Read purchase receipts when already connected; never send or modify Gmail by default."
